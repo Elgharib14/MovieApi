@@ -35,8 +35,7 @@ namespace AngularApi.Controllers
 
         [HttpPost("AddTV")]
         public async Task<IActionResult> AddMovie([FromForm] TVmodell movie)
-        {
-            // 1=> Get Directory
+        { // 1=> Get Directory
             string Imgpath = Directory.GetCurrentDirectory() + "/wwwroot/Poster";
             // 2=> Get FileName 
             string ImgName = Guid.NewGuid() + Path.GetFileName(movie.Poster!.FileName);
@@ -47,10 +46,12 @@ namespace AngularApi.Controllers
             {
                 movie.Poster.CopyTo(stream);
             }
+            // 1=> Get Directory
+
             var data = new Tv
             {
                 Name = movie.Name,
-                Poster = ImgName,
+                Poster = finalImgpath,
                 Rate = movie.Rate,
                 Title = movie.Title,
                 Year = movie.Year,

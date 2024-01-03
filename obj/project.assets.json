@@ -12009,7 +12009,7 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Se7en Computers\\.nuget\\packages\\": {}
+    "C:\\Users\\Pc\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
@@ -12017,11 +12017,11 @@
       "projectUniqueName": "D:\\C# project\\AngularApi\\AngularApi.csproj",
       "projectName": "AngularApi",
       "projectPath": "D:\\C# project\\AngularApi\\AngularApi.csproj",
-      "packagesPath": "C:\\Users\\Se7en Computers\\.nuget\\packages\\",
+      "packagesPath": "C:\\Users\\Pc\\.nuget\\packages\\",
       "outputPath": "D:\\C# project\\AngularApi\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Se7en Computers\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Pc\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -12111,7 +12111,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
       }
     }
   }

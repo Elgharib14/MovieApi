@@ -71,7 +71,7 @@ namespace AngularApi.Controllers
                 {
                     GeneraId = movie.generaId,
                     Name = movie.Name,
-                    Poster = Imgpath,
+                    Poster = ImgName,
                     Rate = movie.Rate,
                     Title = movie.Title,
                     Year = movie.Year,

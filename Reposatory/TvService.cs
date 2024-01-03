@@ -1,7 +1,7 @@
 ﻿using AngularApi.DataBase;
 using AngularApi.DataBase.Entity;
 using AngularApi.Interface;
-using AngularApi.Migrations;
+
 using Microsoft.EntityFrameworkCore;
 
 namespace AngularApi.Reposatory
